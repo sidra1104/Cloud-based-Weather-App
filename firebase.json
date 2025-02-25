@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "public": ".",
+    "site": "weather-dashboard-5523f-8877a",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
